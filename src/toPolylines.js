@@ -26,6 +26,7 @@ export default (parsed) => {
 
     return {
       rgb,
+      layer: layerTable,
       vertices: applyTransforms(entityToPolyline(entity), entity.transforms),
     }
   })
