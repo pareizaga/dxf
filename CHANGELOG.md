@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.1.1](https://github.com/skymakerolof/dxf/compare/v5.1.0...v5.1.1) (2024-08-30)
+
+
+### Bug Fixes
+
+* ignoring colorNumber when layer is not found ([#140](https://github.com/skymakerolof/dxf/issues/140)) ([a930aa1](https://github.com/skymakerolof/dxf/commit/a930aa1fed526e2557f343775fefaecff5c1f782)), closes [#139](https://github.com/skymakerolof/dxf/issues/139)
+
 ## [5.1.0](https://github.com/skymakerolof/dxf/compare/v5.0.1...v5.1.0) (2023-08-08)
 
 
