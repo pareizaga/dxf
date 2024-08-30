@@ -16,7 +16,7 @@ export default (parsed) => {
     } else if (layerTable) {
       colorNumber = layerTable.colorNumber
     }
-    
+
     if (colors[colorNumber] === undefined) {
       logger.warn('Color index', colorNumber, 'invalid, defaulting to black')
       colorNumber = 0
