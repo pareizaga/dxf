@@ -53,6 +53,14 @@ describe('Helper', () => {
     expect(polylines).toEqual([
       {
         rgb: [0, 0, 79],
+        layer: {
+          colorNumber: 178,
+          flags: 0,
+          lineTypeName: "Continuous",
+          lineWeightEnum: "    -3",
+          name: "Default",
+          type: "LAYER",
+        },
         vertices: [
           [0, 0],
           [10, 0],
