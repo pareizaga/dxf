@@ -24,6 +24,14 @@ describe('DXF to coloured polylines', () => {
     expect(polylines).toEqual([
       {
         rgb: [0, 0, 255],
+        layer: {
+          colorNumber: 5,
+          flags: 0,
+          lineTypeName: "Continuous",
+          lineWeightEnum: "    -3",
+          name: "Layer 03",
+          type: "LAYER",
+        },
         vertices: [
           [10, 5],
           [9.980973490458727, 5.435778713738291],
@@ -102,6 +110,14 @@ describe('DXF to coloured polylines', () => {
       },
       {
         rgb: [255, 0, 0],
+        layer: {
+          colorNumber: 1,
+          flags: 0,
+          lineTypeName: "Continuous",
+          lineWeightEnum: "    -3",
+          name: "Layer 01",
+          type: "LAYER"
+        },
         vertices: [
           [0, 0],
           [10, 0],
@@ -125,6 +141,14 @@ describe('DXF to coloured polylines', () => {
     expect(polylines).toEqual([
       {
         rgb: [255, 255, 255],
+        layer: {
+          colorNumber: 7,
+          flags: 0,
+          lineTypeName: "Continuous",
+          lineWeightEnum: "    -3",
+          name: "0",
+          type: "LAYER"
+        },
         vertices: [
           [57.77920885855337, 1.403981252993389],
           [134.3312088585548, 79.24098125299292],
@@ -145,6 +169,14 @@ describe('DXF to coloured polylines', () => {
       },
       {
         rgb: [255, 255, 255],
+        layer: {
+          colorNumber: 7,
+          flags: 0,
+          lineTypeName: "Continuous",
+          lineWeightEnum: "    -3",
+          name: "0",
+          type: "LAYER"
+        },
         vertices: [
           [32.20820885855346, 61.94798125299326],
           [52.72220885855176, 35.73498125299352],

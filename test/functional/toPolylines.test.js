@@ -90,6 +90,7 @@ const names = [
   'array-rotated',
   'arrayed-holes',
   'squircle2',
+  'alu-profile',
 ]
 const dxfs = names.map((name) => require(`../resources/${name}.dxf`).default)
 const svgs = dxfs.map((contents) => toSVG(new Helper(contents).toPolylines()))
